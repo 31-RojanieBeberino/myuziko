@@ -1,0 +1,55 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-family: 'Lobster', cursive;
+    font-size: 75px;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.474);
+}
+body{
+    background-image: url('../img/myuzikoteptep.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.time{
+    text-align: center;
+}
+.logo{
+    display: flex; 
+    justify-content:left; 
+    align-items: center;
+    margin-top:150px; 
+}
+/* .logo img{
+    background-color: blue;
+} */
+.logo h6{
+    width: 50%;
+    text-align: right;
+    font-size: 30px;
+    /* background-color: blueviolet; */
+}
+@media only screen and (max-width: 360px){
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+    }
+   body{
+        background-position: right;
+   }
+   .logo{
+       display: none;
+   }
+} 
